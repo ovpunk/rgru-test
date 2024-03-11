@@ -1,0 +1,19 @@
+.post {
+  height: 120px;
+  width: 350px;
+  padding: 20px;
+
+  .title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.3s;
+
+    &:hover {
+      cursor: pointer;
+      transition: 0.3s;
+      color: #777;
+      transform: scale(1.08);
+    }
+  }
+}
